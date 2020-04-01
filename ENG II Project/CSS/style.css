@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*----------------REUSEABLES----------------*/
+html {
+    background-color: #fff;
+    color: #000000;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    background: linear-gradient(rgba(1, 2, 3, 0.8), rgba(0, 0, 0, .8)), url(../CSS/IMG/mainBG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+} 
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*------------------HEADER------------------*/
+
+h1, h2, h3 {
+    font-size: 280%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 280%;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.typer {
+    color: #fff;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+h3 {
+    font-size: 140%;
+    margin-bottom: 15px;
+    word-spacing: 1px;
+    color: #fff;
+}
+
+h4 {
+    color: #fff;
+    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.ref {
+    color:#fff;
+}
+
+.special-h3:after {
+    display: block;
+    height: 2px;
+    background-color: #174665;
+    content: " ";
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: absolute;
+    margin-bottom: 500px;
+}
+
+/* ----- PARAGRAPHS ----- */
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    color: #fff;
+}
+
+.box1, .box2, .box3 {
+    padding: 1%;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 1100px;
+    align-self: center;
+    transition: box-shadow 0.4s;
+}
+
+.box1:link,box1:visited,
+.box2:link,.box2:visited,
+.box3:link,.box3:visited {
+    padding: 1%;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 1100px;
+    text-align: center;
+    align-self: center;
+}
+
+.box1:hover,box1:active,
+.box2:hover,.box2:active,
+.box3:hover,.box3:active {
+    box-shadow: 0 10px 20px #fff;
+    
+}
+
+.list {
+    margin-top: 20px;
+    background-color: #174665;
+    padding: 0px 40px 0px 40px;
+}
+
+.box1 {
+    background: linear-gradient(rgba(1, 2, 3, 0.6), rgba(0, 0, 0, .6)), url(../CSS/IMG/mindtech.webp);
+    text-decoration: none;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.box2 {
+    background: linear-gradient(rgba(1, 2, 3, 0.4), rgba(0, 0, 0, .4)), url(../CSS/IMG/physicaltech.webp);
+    text-decoration: none;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.box3 {
+    background: linear-gradient(rgba(1, 2, 3, 0.4), rgba(0, 0, 0, .4)), url(../CSS/IMG/culturetech.webp);
+    text-decoration: none;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.readable1 {
+/*    background-color: #174665;*/
+    color: #fff;
+    padding: 40px 40px 40px 40px;
+    width: 1150px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.readable12 {
+/*    background-color: #174665;*/
+    color: #fff;
+    padding: 40px 40px 40px 40px;
+    width: 540px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    
+}
+.readablep12 {
+    background-color: #174665;
+    color: #fff;
+    padding: 40px 40px 20px 40px;
+    width: 540px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.visual12 {
+    background-color: #174665;
+    color: #fff;
+    padding: 40px 40px 40px 40px;
+    width: 540px;
+    margin-top: 20px;
+}
+
+
+
+
+.logo {
+    margin-top: 20px;
+    height = 75px;
+    width: 150px;
+    float: left;
+    left: 100%;
+}
+
+.graph1 {
+    height: 300px;
+    width: 450px;
+}
+
+.graph2 {
+    height: 350px;
+    width: 525px;
+}
+
+.graph3 {
+    height: 550px;
+    width: 500px;
+}
+
+.posture {
+    height: 200px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.appPics {
+    align-content: center;
+    margin: 10px;
+    width: 400px;
+    height: 275.7px;
+}
+
+.img-desc {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.img-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.main-nav {
+    margin-top: 60px;
+    float: right;
+    list-style: none;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.main-nav li {
+    display: inline;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    transition: border-bottom 0.4s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #174665;
+}
+
+
+.home {
+    background: linear-gradient(rgba(1, 2, 3, 0.8), rgba(0, 0, 0, .8)), url(../CSS/IMG/mainBG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.genre {
+    background: linear-gradient(rgba(1, 2, 3, 0.8), rgba(0, 0, 0, .8)), url(../CSS/IMG/mainBG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.hero-text-box {
+    white-space: normal;
+    position: absolute;
+    width: 1140px;
+    top: 55%;
+    left: 50%;
+    /*translate from half its width and height up and to the left*/
+    transform: translate(-50%, -50%);
+}
+
+section {
+    padding: 80px 0 80px 0;
+}
+
+.psych {
+    margin: 40px 80px;
+}
+
+/*------------Buttons-------------*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    border-radius: 250px;
+    transition: background-color 0.4s, border-color 0.4s;
+    margin-right: 20px;
+}
+
+.btn-solid:link,
+.btn-solid:visited{
+    background-color: #174665;
+    border: 5px solid #174665;
+        
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 5px solid #174665;
+}
+
+/*Button looks different on hover*/
+.btn:hover,
+.btn:active{
+    background-color: #113349;
+    border-color: #113349;
+}
+
+/*----------Icons-----------------------*/
+.earth-icon, .bike-icon, .eye-icon {
+    color: #174665;
+    width: 75px;
+    height: 75px;
+    padding-bottom: 10px;
+}
+
